@@ -1,6 +1,14 @@
 # compositeDOOR
 Code accompanying composite endpoints x desirability of outcome ranking paper to help calculate sample size and reproduce paper results
 
+## Installation
+
+This GitHub package can be downloaded using the following command in R:
+
+```
+install_github("jiyingz/compositeDOOR")
+```
+
 ## 2 Normal Outcomes
 
 To reproduce Table 4 Column 1 for two normal outcomes with `MID` = 0 for both and P(favor outcome 1) = `p_oc1` = 70%, run the following. 
