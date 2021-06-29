@@ -19,6 +19,7 @@ means_alt = c(0.2,0.2)
 MID = c(0,0)
 corr12 = 0.0
 p_oc1 = 0.7
+
 get_sampsize_2Dnormal(means_alt, MID, corr12, p_oc1)
 ```
 
