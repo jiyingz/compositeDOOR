@@ -15,7 +15,11 @@ To reproduce Table 4 Column 1 for two normal outcomes with `MID` = 0 for both an
 Parameters may be updated accordingly to reproduce the rest of the columns of Table 4. 
 
 ```
-get_sampsize_2Dnormal(means_alt = c(0.2,0.2), MID = c(0,0), corr12 = 0.0, p_oc1 = 0.7)
+means_alt = c(0.2,0.2)
+MID = c(0,0)
+corr12 = 0.0
+p_oc1 = 0.7
+get_sampsize_2Dnormal(means_alt, MID, corr12, p_oc1)
 ```
 
 
