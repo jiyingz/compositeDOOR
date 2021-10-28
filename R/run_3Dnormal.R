@@ -22,7 +22,7 @@ p321 = 0.04 #category 6
 MID = c(0.67, 0.63, 0.54)
 
 #start_time <- Sys.time()
-results_ex1 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_ex1 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 #end_time <- Sys.time()
 #print(paste("Function took ", end_time - start_time, " minutes.", sep = ""))
 
@@ -42,7 +42,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.05, 0.05)
 
-results_table5_cell11 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell11 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.1, theta = (0.25,0.05,0.05) ---------------------------------------------
 set.seed(5)
@@ -59,7 +59,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.05, 0.05)
 
-results_table5_cell21 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell21 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.5, theta = (0.25,0.05,0.05) ---------------------------------------------
 set.seed(5)
@@ -76,7 +76,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.05, 0.05)
 
-results_table5_cell31 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell31 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.9, theta = (0.25,0.05,0.05) ---------------------------------------------
 set.seed(5)
@@ -93,7 +93,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.05, 0.05)
 
-results_table5_cell41 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell41 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 
 ### ------------------------------------------------------------------------------------------
@@ -113,7 +113,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.25, 0.05)
 
-results_table5_cell12 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell12 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.1, theta = (0.25,0.25,0.05) ---------------------------------------------
 set.seed(5)
@@ -130,7 +130,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.25, 0.05)
 
-results_table5_cell22 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell22 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.5, theta = (0.25,0.25,0.05) ---------------------------------------------
 set.seed(5)
@@ -147,7 +147,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.25, 0.05)
 
-results_table5_cell32 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell32 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.9, theta = (0.25,0.25,0.05) ---------------------------------------------
 set.seed(5)
@@ -164,7 +164,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.25, 0.05)
 
-results_table5_cell42 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell42 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 
 ### ------------------------------------------------------------------------------------------
@@ -184,7 +184,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.25, 0.25)
 
-results_table5_cell13 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell13 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.1, theta = (0.25,0.25,0.25) ---------------------------------------------
 set.seed(5)
@@ -201,7 +201,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.25, 0.25)
 
-results_table5_cell23 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell23 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.5, theta = (0.25,0.25,0.25) ---------------------------------------------
 set.seed(5)
@@ -218,7 +218,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.25, 0.25)
 
-results_table5_cell33 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell33 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.9, theta = (0.25,0.25,0.25) ---------------------------------------------
 set.seed(5)
@@ -235,7 +235,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.25, 0.25, 0.25)
 
-results_table5_cell43 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell43 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 
 ### ------------------------------------------------------------------------------------------
@@ -255,7 +255,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.05 ,0.05)
 
-results_table5_cell14 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell14 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.1, theta = (0.5,0.05,0.05) ---------------------------------------------
 set.seed(5)
@@ -272,7 +272,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.05 ,0.05)
 
-results_table5_cell24 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell24 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.5, theta = (0.5,0.05,0.05) ---------------------------------------------
 set.seed(5)
@@ -289,7 +289,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.05 ,0.05)
 
-results_table5_cell34 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell34 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.9, theta = (0.5,0.05,0.05) ---------------------------------------------
 set.seed(5)
@@ -306,7 +306,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.05 ,0.05)
 
-results_table5_cell44 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell44 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 
 ### ------------------------------------------------------------------------------------------
@@ -326,7 +326,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.5 ,0.05)
 
-results_table5_cell15 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell15 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.1, theta = (0.5,0.5,0.05) ---------------------------------------------
 set.seed(5)
@@ -343,7 +343,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.5 ,0.05)
 
-results_table5_cell25 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell25 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.5, theta = (0.5,0.5,0.05) ---------------------------------------------
 set.seed(5)
@@ -360,7 +360,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.5 ,0.05)
 
-results_table5_cell35 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell35 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.9, theta = (0.5,0.5,0.05) ---------------------------------------------
 set.seed(5)
@@ -377,7 +377,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.5 ,0.05)
 
-results_table5_cell45 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell45 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 
 ### ------------------------------------------------------------------------------------------
@@ -397,7 +397,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.5 ,0.5)
 
-results_table5_cell16 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell16 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.1, theta = (0.5,0.5,0.5) ---------------------------------------------
 set.seed(5)
@@ -414,7 +414,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.5 ,0.5)
 
-results_table5_cell26 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell26 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.5, theta = (0.5,0.5,0.5) ---------------------------------------------
 set.seed(5)
@@ -431,7 +431,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.5 ,0.5)
 
-results_table5_cell36 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell36 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 # Table 5: p=0.9, theta = (0.5,0.5,0.5) ---------------------------------------------
 set.seed(5)
@@ -448,7 +448,7 @@ p312 = 1/6 #category 5
 p321 = 1/6 #category 6
 MID = c(0.5, 0.5 ,0.5)
 
-results_table5_cell46 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power)
+## results_table5_cell46 = get_sampsize_3Dnormal(n, means_null, means_alt, corr12, corr13, corr23, p123, p132, p213, p231, p312, p321, MID, alpha, power) # uncomment to run
 
 
 ### ------------------------------------------------------------------------------------------
